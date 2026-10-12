@@ -1,0 +1,27 @@
+{
+  "random_state": 42,
+  "val_size": 0.2,
+  "vectorizer": {
+    "max_features": 20000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "stop_words": "english",
+    "sublinear_tf": true,
+    "min_df": 2
+  },
+  "best": {
+    "clean": false,
+    "model": "LinearSVM",
+    "params": {
+      "C": 1.0
+    },
+    "accuracy": 0.9402985074626866,
+    "macro_f1": 0.9404485471167856,
+    "train_seconds": 0.233
+  },
+  "n_train_full": 7368,
+  "n_test": 2457,
+  "predictions_path": "predictions.csv"
+}
